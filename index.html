@@ -1,0 +1,10 @@
+<img src="kucuk1.jpg" onclick="goster('buyuk1.jpg')" style="width:100px;height:100px;">
+<img src="kucuk2.jpg" onclick="goster('buyuk2.jpg')" style="width:100px;height:100px;">
+<img id="buyukGorsel" style="display:block;margin-top:20px;">
+
+<script>
+function goster(src) {
+    document.getElementById('buyukGorsel').src = src;
+    document.getElementById('buyukGorsel').style.display = 'block';
+}
+</script>
